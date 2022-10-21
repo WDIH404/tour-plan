@@ -4,6 +4,7 @@
 
 body {
   font-family: "Muli", sans-serif;
+  color: #333333;
 }
 
 .container {
@@ -331,6 +332,10 @@ template {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+.header__search {
+  margin-right: auto;
+  margin-left: 108px;
+}
 
 .search {
   display: flex;
@@ -349,6 +354,7 @@ template {
   font-size: 12px;
   line-height: 15px;
   color: #333333;
+  outline: none;
 }
 .search__button {
   position: absolute;
@@ -376,4 +382,5 @@ template {
   font-size: 14px;
   line-height: 18px;
   color: #333333;
+  margin-left: 18px;
 }/*# sourceMappingURL=style.css.map */
