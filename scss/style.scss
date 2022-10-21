@@ -1,0 +1,9 @@
+@import 'variables';
+// Подключение базовых настроек
+@import 'settings';
+//Подключение normalize.css
+@import 'normalize';
+// Подключение хедера
+@import 'blocks/header';
+// Подключение стилей для адаптива
+@import 'media';
