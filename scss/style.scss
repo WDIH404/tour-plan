@@ -1,9 +1,19 @@
-@import 'variables';
+@import "variables";
+
 // Подключение базовых настроек
-@import 'settings';
+@import "settings";
+
 //Подключение normalize.css
-@import 'normalize';
+@import "normalize";
+
 // Подключение хедера
-@import 'blocks/header';
+@import "blocks/header.scss";
+
+// Подключение хлебных крошек
+@import "blocks/breadcrumb";
+
+// Стили блока Отель
+@import "blocks/hotel";
+
 // Подключение стилей для адаптива
-@import 'media';
+@import "media";
